@@ -1,0 +1,11 @@
+.HeroBackground {
+    background: #124d91 linear-gradient(45deg, #2f73af, #162379);
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    line-height: 55px;
+}
+
+.HeroBackground h2 {
+    font-size: 2.5em;
+}

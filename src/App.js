@@ -1,14 +1,23 @@
 import './App.css';
-import './components/Cube/Cube'
-import Cube from './components/Cube/Cube';
+import { BrowserRouter, Router, Route, Link } from 'react-router-dom';
+import Landingpage from './pages/Landingpage';
+import HeroHeader from './components/HeroHeader/HeroHeader';
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <>
-        <Cube />
-      </>
+      <BrowserRouter>
+        <HeroHeader />
+        <Navbar />
+        <Landingpage />
+      </BrowserRouter>
     </div>
+
   );
 }
 
