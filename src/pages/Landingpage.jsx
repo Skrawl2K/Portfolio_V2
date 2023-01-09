@@ -1,5 +1,7 @@
 import './Landingpage.css'
-import diamond from './diamond.svg'
+import coding from '../img/coding-icon.svg'
+import githubIcon from '../img/github-icon.svg'
+import reactIcon from '../img/react-icon.svg'
 
 const Landingpage = () => {
 
@@ -23,9 +25,9 @@ const Landingpage = () => {
     return (
         <>
             <div>
-                <img src={diamond} />
-                <img src={diamond} />
-                <img src={diamond} />
+                <img src={coding} />
+                <img src={githubIcon} />
+                <img src={reactIcon} />
                 <section class="home-content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
                     <br />

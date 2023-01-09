@@ -1,3 +1,7 @@
+html {
+    background-image: url(../img/Meteor.svg);
+}
+
 body {
     margin-bottom: -50vh;
     padding: 0;
@@ -15,19 +19,22 @@ img {
 
 body img:nth-child(1) {
     width: 200px;
-    top: 30px;
+    top: 1px;
+    opacity: 30%;
 }
 
 body img:nth-child(2) {
-    width: 400px;
-    left: 500px;
+    width: 250px;
+    left: 350px;
     top: 300px;
+    opacity: 30%;
 }
 
 body img:nth-child(3) {
-    width: 100px;
-    left: 60px;
-    top: 600px;
+    width: 150px;
+    top: 250px;
+    right: 150px;
+    opacity: 30%;
 }
 
 .home-content {

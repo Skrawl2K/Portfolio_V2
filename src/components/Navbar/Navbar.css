@@ -1,0 +1,18 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding-block: 15px;
+    /* position: fixed; */
+}
+
+.navbutton {
+    color: rgb(9, 37, 61);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 1px solid rgb(17, 101, 220);
+}
