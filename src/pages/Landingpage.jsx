@@ -2,6 +2,8 @@ import './Landingpage.css'
 import coding from '../img/coding-icon.svg'
 import githubIcon from '../img/github-icon.svg'
 import reactIcon from '../img/react-icon.svg'
+import Navbar from '../components/Navbar/Navbar';
+import HeroHeader from '../components/HeroHeader/HeroHeader';
 
 const Landingpage = () => {
 
@@ -24,6 +26,8 @@ const Landingpage = () => {
 
     return (
         <>
+            <HeroHeader />
+            <Navbar />
             <div>
                 <img src={coding} />
                 <img src={githubIcon} />

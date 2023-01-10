@@ -19,21 +19,21 @@ img {
 
 body img:nth-child(1) {
     width: 200px;
-    top: 1px;
+    top: 290px;
     opacity: 30%;
 }
 
 body img:nth-child(2) {
     width: 250px;
-    left: 350px;
-    top: 300px;
+    left: 400px;
+    top: 460px;
     opacity: 30%;
 }
 
 body img:nth-child(3) {
     width: 150px;
-    top: 250px;
-    right: 150px;
+    top: 360px;
+    right: 90px;
     opacity: 30%;
 }
 
@@ -41,4 +41,8 @@ body img:nth-child(3) {
     position: relative;
     z-index: 1;
     padding: 100px 15%;
+}
+
+section {
+    text-align: center;
 }

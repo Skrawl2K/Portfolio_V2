@@ -1,4 +1,4 @@
-nav ul {
+/* nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -6,13 +6,68 @@ nav ul {
     background-color: #fff;
     flex-wrap: wrap;
     padding-block: 15px;
-    /* position: fixed; */
-}
+} */
 
-.navbutton {
+/*.navbutton {
     color: rgb(9, 37, 61);
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bolder;
     border: 1px solid rgb(17, 101, 220);
+} */
+
+
+
+/* !-----------------------------------------------------------------------! */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.NavBody {
+    background-color: #15497c;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+    gap: 72px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li .navbutton {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease;
+    border: 1px solid #fff;
+    border-radius: 40px;
+}
+
+ul:hover li a {
+    color: #30edf4;
+}
+
+ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+
+
+/* !--------------------------------------------------------------- */
