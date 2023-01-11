@@ -35,10 +35,10 @@ const Landingpage = () => {
                 <Navbar />
                 <div>
 
-                    <img className='BackgroundIcon' src={coding} />
-                    <img className='BackgroundIcon' src={githubIcon} />
-                    <img className='BackgroundIcon' src={reactIcon} />
-                    <img className='BackgroundIcon' src={nodeIcon} />
+                    <img className='BackgroundIcon' alt='code-background-icon' src={coding} />
+                    <img className='BackgroundIcon' alt='github-background-icon' src={githubIcon} />
+                    <img className='BackgroundIcon' alt='react-background-icon' src={reactIcon} />
+                    <img className='BackgroundIcon' alt='node.js-background-icon' src={nodeIcon} />
                     <section class="home-content">
                         <article className='card'>
                             <h2>Lorem ipsum dolor sit amet.</h2>
