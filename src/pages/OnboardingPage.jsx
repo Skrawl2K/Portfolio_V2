@@ -11,7 +11,7 @@ const Onboarding = () => {
                     {/* <h2>Welcome</h2> */}
                     <h2>to my Portfolio</h2>
                 </article>
-                <img className="memoji" src="./img/Kev-sticker.png"></img>
+                <img className="memoji" alt="memoji-image" src="./img/Kev-sticker.png"></img>
                 <Link to={'/main'}><button>next</button></Link>
             </div>
         </>
