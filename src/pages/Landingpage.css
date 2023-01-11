@@ -5,35 +5,43 @@ html {
 body {
     margin-bottom: -50vh;
     padding: 0;
-    height: 300vh;
+    height: 100vh;
+    width: 100%;
     font-family: "Euclid Circular A";
     background-image: url(../img/Meteor.svg);
     color: rgba(255, 255, 255, 0.7);
 }
 
-img {
+.BackgroundIcon {
     position: fixed;
     z-index: 0;
     transition: 0.3s;
 }
 
-body img:nth-child(1) {
+.BackgroundIcon:nth-child(1) {
     width: 200px;
     top: 290px;
     opacity: 30%;
 }
 
-body img:nth-child(2) {
+.BackgroundIcon:nth-child(2) {
     width: 250px;
-    left: 400px;
-    top: 460px;
+    left: 950px;
+    top: 550px;
     opacity: 30%;
 }
 
-body img:nth-child(3) {
+.BackgroundIcon:nth-child(3) {
     width: 150px;
-    top: 360px;
+    top: 362px;
     right: 90px;
+    opacity: 30%;
+}
+
+.BackgroundIcon:nth-child(4) {
+    width: 180px;
+    top: 520px;
+    left: 120px;
     opacity: 30%;
 }
 
@@ -45,4 +53,32 @@ body img:nth-child(3) {
 
 section {
     text-align: center;
+}
+
+.card {
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.1));
+
+    backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba (0, 0, 0, 0.36);
+    border-radius: 24px;
+    padding: 40px;
+    margin: 25px;
+}
+
+.card:where(h2, p) {
+    color: #fff;
+    text-align-last: center;
+    margin: 0;
+}
+
+.card h2 {
+    font-size: 48px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #d1d1d1;
 }

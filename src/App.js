@@ -1,6 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
+import Onboarding from './pages/OnboardingPage';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 
 
@@ -14,7 +17,10 @@ function App() {
 
       <Router>
         <Routes>
-          <Route path='/' element={<Landingpage />}></Route>
+          <Route path='/' element={<Onboarding />}></Route>
+          <Route path='/main' element={<Landingpage />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
         </Routes>
       </Router>
     </div >

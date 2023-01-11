@@ -33,7 +33,7 @@
     /* background-color: #15497c; */
     height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
