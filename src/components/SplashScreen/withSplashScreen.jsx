@@ -28,7 +28,7 @@ function SplashScreen() {
         <animated.div ref={main0Ref} style={main0Style} className="App-hidden">
             <div className='column'>
                 <animated.h1 className='splashText' ref={main1Ref} style={main1Style}>WELCOME !</animated.h1>
-                <animated.img className='splashIcon' ref={main2Ref} style={main2Style} alt="" src="./img/load-33.gif"></animated.img><br />
+                <animated.img className='splashIcon' ref={main2Ref} style={main2Style} alt="" src="../img/load-33.gif"></animated.img><br />
             </div>
         </animated.div>
     );
