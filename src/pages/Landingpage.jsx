@@ -5,6 +5,7 @@ import reactIcon from '../img/react-icon.svg'
 import nodeIcon from '../img/node-icon.svg'
 import Navbar from '../components/Navbar/Navbar';
 import HeroHeader from '../components/HeroHeader/HeroHeader';
+import Footer from '../components/Footer/Footer'
 
 
 
@@ -41,12 +42,12 @@ const Landingpage = () => {
                     <img className='BackgroundIcon' alt='node.js-background-icon' src={nodeIcon} />
                     <section class="home-content">
                         <article className='card'>
-                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <h2>Über mich.</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
                         </article>
                         <article className='card'>
-                            <h2>Lorem ipsum dolor sit amet.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
+                            <h2>Tech Stack</h2>
+                            <p></p>
                         </article>
                         <article className='card'>
                             <h2>Lorem ipsum dolor sit amet.</h2>
@@ -67,6 +68,7 @@ const Landingpage = () => {
                     </section>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
