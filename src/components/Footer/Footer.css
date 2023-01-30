@@ -1,3 +1,8 @@
 .FooterBody {
-    background-color: rgb(2, 6, 23);
+    background: #124d91 linear-gradient(50deg, #162379, #2f73af);
+    align-items: center;
+}
+
+.FooterBody button {
+    margin-left: 2%;
 }

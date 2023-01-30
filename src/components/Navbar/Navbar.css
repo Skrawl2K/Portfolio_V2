@@ -35,6 +35,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 ul {
@@ -79,6 +80,27 @@ ul:hover li a:not(:hover) {
     color: white;
     opacity: 0.3;
     filter: blur(1px);
+}
+
+/* Default styles for the navbar */
+.navbar {
+    position: relative;
+
+    color: #fff;
+    padding: 10px;
+}
+
+/* Styles for the sticky navbar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: #124d91 linear-gradient(50deg, #162379, #2f73af);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 

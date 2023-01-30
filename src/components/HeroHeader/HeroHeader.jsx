@@ -3,8 +3,8 @@ import './HeroHeader.css'
 const HeroHeader = () => {
     return (
         <div className="HeroBackground">
-            <h2>Kevin Koslowski</h2>
-            <p>FULL-STACK DEVELOPER</p>
+            <h2 className='headlines'>Kevin Koslowski</h2>
+            <p className='headlines'>JUNIOR FULL-STACK WEB DEVELOPER</p>
         </div>
     )
 };

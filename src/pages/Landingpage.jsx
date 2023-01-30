@@ -18,6 +18,7 @@ import react from '../img/tech/REACT_JS.svg'
 import vscode from '../img/tech/VSCODE.svg'
 import bootstrap from '../img/tech/Bootstrap_logo.png'
 import webflow from '../img/tech/webflow_logo.svg'
+import Footer from '../components/Footer/Footer'
 
 
 
@@ -55,14 +56,14 @@ const Landingpage = () => {
                     <img className='BackgroundIcon' alt='node.js-background-icon' src={nodeIcon} />
                     <section class="home-content">
                         <article className='card'>
-                            <h2>Über mich.</h2>
+                            <h2 className='headlines'>About me.</h2>
                             <p>Mein Name ist Kevin Koslowski, 32 Jahre alt. Aktuell wohne ich mit meiner Frau und meinen 2 Söhnen in der Stadt Siegen.
                                 ich bin ab dem 22.02.2023 zertifizierter Junior Full Stack Webdeveloper.
                             </p>
                         </article>
 
                         <article className='card'>
-                            <h2>Tech Stack</h2>
+                            <h2 className='headlines'>Tech Stack</h2>
                             <div className='icon-card'>
                                 <div>
                                     <img className='icon' src={html} alt='html'></img>
@@ -115,25 +116,30 @@ const Landingpage = () => {
                             </div>
                         </article>
                         <article className='card'>
-                            <h2>Lorem ipsum dolor sit amet.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
+                            <h2 className='headlines'>The Past.</h2>
+                            <p>Ich habe in der Vergangenheit als 2nd Level IT Engineer gearbeitet und einige Jahre auch in der Krankenpflege.
+                                Ich bin also gerne ein Teamplayer aber auch in der Lage solo zu arbeiten und die gesetzten Ziele zu erreichen.
+                            </p>
                         </article>
                         <article className='card'>
-                            <h2>Lorem ipsum dolor sit amet.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
+                            <h2 className='headlines'>Whats next ?</h2>
+                            <p>Wenn ich die Zeit finde bin ich aktuell mich noch in eigen Regie am fortbilden in den Bereichen Kotlin & Ansible.
+                                Kotlin habe ich aufgegriffen da ich diese Programmiersprache sehr interessant finde und diese auch immer mehr Anwendungsbereiche hat.
+                                Ansible gehört im gegensatz zu einem Themen Packet dem ich mich noch widmen will. Dazu kommen noch AWS, Docker, Jenkins und ein paar weitere Themen
+                            </p>
                         </article>
                         <article className='card'>
-                            <h2>Lorem ipsum dolor sit amet.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
+                            <h2 className='headlines'>Projects!</h2>
+                            <p>W.I.P.</p>
                         </article>
                         <article className='card'>
-                            <h2>Lorem ipsum dolor sit amet.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorum fuga pariatur? Facilis, magni nostrum aperiam illo provident officiis dicta qui exercitationem vero sint dolorum perspiciatis, beatae veniam nulla doloribus natus. Fuga suscipit fugiat accusamus, expedita sequi mollitia aliquam quos, labore similique rem quia, laborum qui. Ipsa, facere quas.</p>
+                            <h2 className='headlines'>Lets Talk !</h2>
+                            <p>Man kann mich über das Kontaktformular unter Contact erreichen oder unter LinkedIn & Xing.</p>
                         </article>
                     </section>
                 </div>
             </div>
-
+            <Footer />
         </>
     );
 };
