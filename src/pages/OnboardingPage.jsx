@@ -8,7 +8,6 @@ const Onboarding = () => {
             <SplashScreen />
             <div className="onboarding">
                 <article className="headline">
-                    {/* <h2>Welcome</h2> */}
                     <h2>to my Portfolio</h2>
                 </article>
                 <img className="memoji" alt="memoji-Skrawl2K" src='../img/Kev-sticker.png'></img>

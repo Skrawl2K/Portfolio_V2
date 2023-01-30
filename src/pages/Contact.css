@@ -1,0 +1,54 @@
+.contactBody {
+    height: 100vh;
+    width: 100%;
+}
+
+.button {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #124d91;
+
+}
+
+.button:hover {
+    color: #30edf4;
+}
+
+.form-label {
+    color: #fff;
+    margin: 0 1em;
+}
+
+.form-control {
+    margin: .3em 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    margin-left: 2.5em;
+}
+
+#email {
+    margin-left: 2.5em;
+}
+
+#message {
+    margin-left: 1.2em;
+    height: 8em;
+    width: 20em;
+}
+
+.mb-3 {
+    /* margin: 2em 1em; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -82,3 +82,18 @@ section {
     font-size: 16px;
     color: #d1d1d1;
 }
+
+
+.icon-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto);
+}
+
+.icon {
+    width: auto;
+    height: 6vh;
+    margin-top: 5vh;
+    margin-bottom: .5vh;
+
+}
