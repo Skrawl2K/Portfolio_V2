@@ -1,4 +1,3 @@
-import Footer from "../components/Footer/Footer";
 import './Contact.css'
 import React from 'react'
 import HeroHeader from "../components/HeroHeader/HeroHeader";
