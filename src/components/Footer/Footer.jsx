@@ -1,5 +1,5 @@
 import './Footer.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css'
 import './Footer.css'
 import { useState } from 'react';
@@ -26,7 +26,7 @@ const Footer = () => {
         return () => {
             window.removeEventListener("scroll", checkScrollTop);
         };
-    }, []);
+    },);
 
     return (
         <div className='FooterBody'>
