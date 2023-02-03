@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 15%;
+    width: 50%;
+    height: auto;
+
+}
+
+.socialIcon1 {
+    width: 40%;
+    height: auto;
+}
+
+.socialIcon2 {
+    width: 8%;
+    height: auto;
+}

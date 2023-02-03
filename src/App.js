@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
 import Onboarding from './pages/OnboardingPage';
-import About from './pages/About';
+import Links from './pages/Links';
 import Contact from './pages/Contact';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
@@ -21,8 +21,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Onboarding />}></Route>
           <Route path='/main' element={<Landingpage />}></Route>
-          <Route path='/about' element={<About />}></Route>
+          <Route path='/links' element={<Links />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='*' element={<Landingpage />}></Route>
         </Routes>
       </Router>
     </div >

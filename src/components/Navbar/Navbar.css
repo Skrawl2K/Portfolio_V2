@@ -29,8 +29,8 @@
 }
 
 .NavBody {
-    background: #124d91 linear-gradient(50deg, #162379, #2f73af);
-    /* background-color: #15497c; */
+    /* background: #124d91 linear-gradient(50deg, #162379, #2f73af); */
+    background-color: #162379;
     height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -56,7 +56,7 @@ ul li .navbutton {
     color: white;
     padding: 10px;
     transition: 0.5s ease;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 40px;
 }
 
@@ -106,3 +106,14 @@ ul:hover li a:not(:hover) {
 
 
 /* !--------------------------------------------------------------- */
+
+/* .iconWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.socialIcons {
+    width: 5%;
+    height: auto;
+} */

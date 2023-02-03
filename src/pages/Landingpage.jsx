@@ -5,6 +5,7 @@ import reactIcon from '../img/react-icon.svg'
 import nodeIcon from '../img/node-icon.svg'
 import Navbar from '../components/Navbar/Navbar';
 import HeroHeader from '../components/HeroHeader/HeroHeader';
+import Carousel from '../components/PictureCarousel/PictureCarousel'
 // icon imports
 import html from '../img/tech/HTML.svg'
 import css from '../img/tech/CSS.svg'
@@ -19,6 +20,8 @@ import vscode from '../img/tech/VSCODE.svg'
 import bootstrap from '../img/tech/Bootstrap_logo.png'
 import webflow from '../img/tech/webflow_logo.svg'
 import Footer from '../components/Footer/Footer'
+import AboutCard from '../components/AboutCard/AboutCard'
+
 
 
 
@@ -55,11 +58,9 @@ const Landingpage = () => {
                     <img className='BackgroundIcon' alt='react-background-icon' src={reactIcon} />
                     <img className='BackgroundIcon' alt='node.js-background-icon' src={nodeIcon} />
                     <section class="home-content">
-                        <article className='card'>
+                        <article className='card about'>
                             <h2 className='headlines'>About me.</h2>
-                            <p>Mein Name ist Kevin Koslowski, 32 Jahre alt. Aktuell wohne ich mit meiner Frau und meinen 2 Söhnen in der Stadt Siegen.
-                                ich bin ab dem 22.02.2023 zertifizierter Junior Full Stack Webdeveloper.
-                            </p>
+                            <AboutCard />
                         </article>
 
                         <article className='card'>
@@ -115,26 +116,24 @@ const Landingpage = () => {
                                 </div>
                             </div>
                         </article>
-                        <article className='card'>
+                        {/* <article className='card'>
                             <h2 className='headlines'>The Past.</h2>
-                            <p>Ich habe in der Vergangenheit als 2nd Level IT Engineer gearbeitet und einige Jahre auch in der Krankenpflege.
-                                Ich bin also gerne ein Teamplayer aber auch in der Lage solo zu arbeiten und die gesetzten Ziele zu erreichen.
+                            <p>I have worked as a 2nd level IT Engineer in the past and also in nursing for a few years. So I like to be a team player but also able to work solo and achieve the set goals.
                             </p>
-                        </article>
+                        </article> */}
                         <article className='card'>
                             <h2 className='headlines'>Whats next ?</h2>
-                            <p>Wenn ich die Zeit finde bin ich aktuell mich noch in eigen Regie am fortbilden in den Bereichen Kotlin & Ansible.
-                                Kotlin habe ich aufgegriffen da ich diese Programmiersprache sehr interessant finde und diese auch immer mehr Anwendungsbereiche hat.
-                                Ansible gehört im gegensatz zu einem Themen Packet dem ich mich noch widmen will. Dazu kommen noch AWS, Docker, Jenkins und ein paar weitere Themen
+                            <p>If I find the time I am currently still in my own direction to train in the areas of Kotlin & Ansible. Kotlin I have taken up because I find this programming language very interesting and it also has more and more application areas. Ansible, on the other hand, belongs to a topic package that I still want to dedicate myself to. In addition, AWS, Docker, Jenkins and a few other topics.
                             </p>
                         </article>
                         <article className='card'>
                             <h2 className='headlines'>Projects!</h2>
-                            <p>W.I.P.</p>
+                            <Carousel />
+
                         </article>
                         <article className='card'>
                             <h2 className='headlines'>Lets Talk !</h2>
-                            <p>Man kann mich über das Kontaktformular unter Contact erreichen oder unter LinkedIn & Xing.</p>
+                            <p>You can reach me via the contact form under Contact or on LinkedIn & Instaffo.</p>
                         </article>
                     </section>
                 </div>

@@ -1,8 +1,11 @@
 .FooterBody {
     background: #124d91 linear-gradient(50deg, #162379, #2f73af);
+    display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
-.FooterBody button {
-    margin-left: 2%;
-}
+/* .FooterBody button {
+    z-index: 100;
+} */
