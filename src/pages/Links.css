@@ -3,22 +3,49 @@
     flex-direction: row;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h2 {
+    margin-left: 11%;
+}
+
 .iconWrapper {
     display: flex;
-    flex-direction: row;
-    gap: 15px;
-    margin-left: 15%;
+    flex-direction: column;
+
+    gap: 35px;
+    margin-top: 2vh;
     width: 50%;
     height: auto;
+    justify-self: center;
+}
 
+.iconWrapper a {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.LinkWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .socialIcon1 {
-    width: 40%;
+    width: 10%;
     height: auto;
+    margin: 2%;
 }
 
 .socialIcon2 {
-    width: 8%;
+    width: 9%;
     height: auto;
+    margin: 2.5%;
 }

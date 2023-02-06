@@ -53,11 +53,12 @@ ul li .navbutton {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: aliceblue;
     padding: 10px;
     transition: 0.5s ease;
-    border: 2px solid #fff;
+    border: 2px solid aliceblue;
     border-radius: 40px;
+    margin-left: 20%;
 }
 
 ul:hover li a {
