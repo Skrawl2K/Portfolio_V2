@@ -133,7 +133,7 @@ const Landingpage = () => {
                         </article>
                         <article className='card'>
                             <h2 className='headlines'>Lets Talk !</h2>
-                            <p>You can reach me via the contact form under Contact or on LinkedIn & Instaffo.</p>
+                            <p>Interessted ? Lets get in touch, you can reach me via the contact form.</p>
                         </article>
                     </section>
                 </div>
