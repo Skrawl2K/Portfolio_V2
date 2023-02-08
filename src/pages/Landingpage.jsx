@@ -138,7 +138,7 @@ const Landingpage = () => {
                     </section>
                 </div>
             </div>
-            <Footer />
+            <Footer className='Footer' />
         </>
     );
 };

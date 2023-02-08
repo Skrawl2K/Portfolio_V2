@@ -22,6 +22,7 @@ body {
     width: 200px;
     top: 290px;
     opacity: 30%;
+    z-index: 0;
 }
 
 .BackgroundIcon:nth-child(2) {
@@ -29,6 +30,7 @@ body {
     left: 950px;
     top: 550px;
     opacity: 30%;
+    z-index: 0;
 }
 
 .BackgroundIcon:nth-child(3) {
@@ -36,6 +38,7 @@ body {
     top: 362px;
     right: 90px;
     opacity: 30%;
+    z-index: 0;
 }
 
 .BackgroundIcon:nth-child(4) {
@@ -43,6 +46,7 @@ body {
     top: 520px;
     left: 120px;
     opacity: 30%;
+    z-index: 0;
 }
 
 .home-content {
@@ -96,4 +100,8 @@ section {
     margin-top: 5vh;
     margin-bottom: .5vh;
 
+}
+
+.Footer {
+    z-index: 9999;
 }
